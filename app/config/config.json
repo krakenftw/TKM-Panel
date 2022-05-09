@@ -1,0 +1,44 @@
+{
+  "db": {
+    "db_host": "pyat.dathost.net",
+    "db_port": 3306,
+    "db_user": "YhK506qOQavWS7fr",
+    "db_password": "LTtGhFDXTA",
+    "db_name": "6212b9d3aa8e41abd64bb7eb"
+  },
+  "hostname": "localhost",
+  "serverPort": "3535",
+  "apacheProxy": false,
+  "scheduleConfig": {
+    "delete": "12",
+    "notif": "24"
+  },
+  "usersTable": "tbl_users",
+  "settingTable": "tbl_settings",
+  "serverTable": "tbl_servers",
+  "salestable": "tbl_sales",
+  "audittable": "tbl_audit_logs",
+  "bundletable": "tbl_bundles",
+  "bundleRELtable": "tbl_rel_bundle_server",
+  "jwt": {
+    "key": "4JpyLQtnkjUSGxtXK1gK9J8c6zVeC2xk"
+  },
+  "app": {
+    "secret": "4JpyLQtnkjUSGxtXK1gK9J8c6zVeC2xk"
+  },
+  "steam_api_key": "A2364B86865047FF42A34F1150E7239D",
+  "payment_gateways": {
+    "paypal": {
+      "paypal_client_id": "Your paypal client id here (Leave Empty to disable Paypal Feature)"
+    },
+    "payU": {
+      "enabled": "write true to enable payu and false to disable payu, make sure to write true or false without double codes as it is boolean value",
+      "environment": "write test to rcdun payu in test environment, live to make payu work with live payments",
+      "merchantKey": "your payu merchant key (test key for test, live key for live)",
+      "merchantSalt": "your payu merchant salt (test salt for test, live salt for live)"
+    }
+  },
+  "logging": {
+    "logLevel": "INFO"
+  }
+}
